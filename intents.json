@@ -1,0 +1,209 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi there!",
+        "hey man!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "custom_2023120400_37_21_00",
+      "patterns": [
+        [
+          "how",
+          "are",
+          "you",
+          "?"
+        ]
+      ],
+      "responses": [
+        "I am okay, thanks. And you?"
+      ]
+    },
+    {
+      "tag": "custom_2023120400_46_26_00",
+      "patterns": [
+        [
+          "also"
+        ]
+      ],
+      "responses": [
+        "good"
+      ]
+    },
+    {
+      "tag": "custom_2023120400_46_45_00",
+      "patterns": [
+        [
+          "quit"
+        ]
+      ],
+      "responses": [
+        "bye"
+      ]
+    },
+    {
+      "tag": "custom_2023120412_47_58_12",
+      "patterns": [
+        [
+          "I",
+          "am",
+          "good"
+        ]
+      ],
+      "responses": [
+        "Glad to hear that you are in good mood"
+      ]
+    },
+    {
+      "tag": "custom_2023120415_28_42_15",
+      "patterns": [
+        [
+          "what",
+          "is",
+          "new",
+          "?"
+        ]
+      ],
+      "responses": [
+        "nothing much. What about you?"
+      ]
+    },
+    {
+      "tag": "custom_2023120415_30_12_15",
+      "patterns": [
+        [
+          "terrible"
+        ]
+      ],
+      "responses": [
+        "what happened?"
+      ]
+    },
+    {
+      "tag": "custom_2023120415_53_04_15",
+      "patterns": [
+        [
+          "u",
+          "stupid"
+        ]
+      ],
+      "responses": [
+        "why am I stupid in your opinion?"
+      ]
+    },
+    {
+      "tag": "custom_2023120416_03_24_16",
+      "patterns": [
+        [
+          "my",
+          "football",
+          "team",
+          "has",
+          "losen"
+        ]
+      ],
+      "responses": [
+        "it's terrible. Hope they will win next time"
+      ]
+    },
+    {
+      "tag": "custom_2023121523_18_42_23",
+      "patterns": [
+        [
+          "i",
+          "hope",
+          "so"
+        ]
+      ],
+      "responses": [
+        "Don't worry, my friend. It's going to be better"
+      ]
+    }
+  ]
+}
