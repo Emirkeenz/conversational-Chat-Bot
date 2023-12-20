@@ -25,7 +25,9 @@ model.load_state_dict(model_state)
 model.eval()
 
 bot_name = "Sam"
+
 print("Let's chat! (type 'quit' to exit)")
+
 while True:
     sentence = input("You: ")
     if sentence == "quit":
@@ -44,12 +46,12 @@ while True:
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
     
-    if prob.item() > 0.75:
+    if prob.item() > 0.85:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 print(f"{bot_name}: {random.choice(intent['responses'])}")
     else:
-        new_response = input(f"{bot_name}: I do not understand. How should I respond to this? ")
+        new_response = input(f"{bot_name}: I do not understand you. How should I respond to this? ")
         timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
         new_tag = f"custom_{timestamp[:10]}_{timestamp[10:12]}_{timestamp[12:14]}_{timestamp[8:10]}"
 
@@ -62,4 +64,4 @@ while True:
         with open('intents.json', 'w') as json_file:
             json.dump(intents, json_file, indent=2)
 
-        print(f"{bot_name}: Thank you for teaching me. I'll remember that!")
+        print(f"{bot_name}: Thanks. I'll remember that!")

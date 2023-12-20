@@ -6,3 +6,5 @@ __pycache__/
 
 # Игнорим файл .env
 .env
+
+intents.json

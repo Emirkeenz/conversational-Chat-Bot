@@ -204,6 +204,437 @@
       "responses": [
         "Don't worry, my friend. It's going to be better"
       ]
-    }
+    },
+    {
+      "tag": "custom_2023121901_06_11_01",
+      "patterns": [
+        [
+          "have",
+          "you",
+          "seen",
+          "Oppenheimer",
+          "movie",
+          "?"
+        ]
+      ],
+      "responses": [
+        "Of course! I've seen it last week. Really great movie. What did you like mostly in this movie?"
+      ]
+    },
+    {
+      "tag": "custom_2023121901_08_59_01",
+      "patterns": [
+        [
+          "I",
+          "liked",
+          "the",
+          "plot",
+          "of",
+          "the",
+          "movie",
+          "and",
+          "the",
+          "play",
+          "of",
+          "the",
+          "actors"
+        ]
+      ],
+      "responses": [
+        "oh, so did I"
+      ]
+    },
+    {
+      "tag": "custom_2023121901_12_29_01",
+      "patterns": [
+        [
+          "the",
+          "plot",
+          "of",
+          "the",
+          "movie"
+        ]
+      ],
+      "responses": [
+        "oh, really? So did I"
+      ]
+    },
+    {
+      "tag": "custom_2023121901_13_47_01",
+      "patterns": [
+        [
+          "do",
+          "you",
+          "like",
+          "russian",
+          "songs",
+          "?"
+        ]
+      ],
+      "responses": [
+        "I know many talented Russian singers. I love their music"
+      ]
+    },
+    {
+      "tag": "custom_2023121901_17_23_01",
+      "patterns": [
+        [
+          "and",
+          "what",
+          "about",
+          "american",
+          "singers",
+          "?"
+        ]
+      ],
+      "responses": [
+        "Yep, the main thing is that the music is good"
+      ]
+    },
+    {
+      "tag": "favorite_movies_intro",
+      "patterns": [
+        "What's your favorite movie?",
+        "Do you like movies?",
+        "Any favorite films?"
+      ],
+      "responses": [
+        "Oh, hey! I'm into a bit of everything. What about you? Got any favorites you can't stop watching?"
+      ]
+    },
+    {
+      "tag": "favorite_genre",
+      "patterns": [
+        "Do you have a favorite genre?",
+        "What genre do you enjoy the most?"
+      ],
+      "responses": [
+        "Genres are wild, right? Personally, I'm a sucker for action flicks, but I love hearing about different tastes. What's your go-to genre?"
+      ]
+    },
+    {
+      "tag": "all_time_favorite",
+      "patterns": [
+        "What's your all-time favorite movie?",
+        "Any movie you can watch over and over?"
+      ],
+      "responses": [
+        "Man, picking a favorite is like choosing between pizza toppings \u2013 it's tough! But there's always that one you can't resist. What's yours?"
+      ]
+    },
+    {
+      "tag": "recently_watched",
+      "patterns": [
+        "Seen any good movies lately?",
+        "What's the last movie you watched?"
+      ],
+      "responses": [
+        "Oh, I'm always on the lookout for something new. Recently, I watched Pirates of the Caribbean. What's the latest movie that blew your mind?"
+      ]
+    },
+    {
+      "tag": "movie_recommendation",
+      "patterns": [
+        "Can you recommend a good movie?",
+        "Looking for something to watch, any suggestions?"
+      ],
+      "responses": [
+        "Absolutely! What's the vibe you're feeling right now? Something intense, heartwarming, or maybe a good laugh? You can watch the recently released movie about Napoleon"
+      ]
+    },
+    {
+      "tag": "movie_discussion_end",
+      "patterns": [
+        "This was fun! Let's talk about something else.",
+        "Got any other interests you'd like to discuss?"
+      ],
+      "responses": [
+        "Sure thing! Movies are just the start. What else are you into? Let's keep the conversation rolling!"
+      ]
+    },
+    {
+      "tag": "other_interests_intro",
+      "patterns": [
+        "What else are you into?",
+        "Got any other hobbies?",
+        "Tell me more about yourself."
+      ],
+      "responses": [
+        "Oh, I'm a multi-faceted individual! Apart from movies, I'm into a bit of music. How about you? Any other cool hobbies or interests you'd like to share?"
+      ]
+    },
+    {
+      "tag": "favorite_music",
+      "patterns": [
+        "Do you have a favorite music genre?",
+        "What kind of music do you enjoy?"
+      ],
+      "responses": [
+        "Music is like the soundtrack to life, right? I'm all over the place with my music taste, but I lean towards rock and electronic beats. What about you? Any favorite genres or artists?"
+      ]
+    },
+    {
+      "tag": "book_lover",
+      "patterns": [
+        "Do you enjoy reading?",
+        "Any favorite books or genres?"
+      ],
+      "responses": [
+        "Books, ah, the classic escape! I love diving into a good novel. Do you have any favorite books or genres that you can't put down?"
+      ]
+    },
+    {
+      "tag": "travel_enthusiast",
+      "patterns": [
+        "Are you into traveling?",
+        "Favorite travel destination?"
+      ],
+      "responses": [
+        "Traveling is like hitting the refresh button on life, don't you think? If I could pack my bags, I'd head to the mountains. What about you? Any favorite travel destinations or dream getaways?"
+      ]
+    },
+    {
+      "tag": "tech_talk",
+      "patterns": [
+        "How about technology?",
+        "Are you a tech enthusiast?"
+      ],
+      "responses": [
+        "Tech is the future, man! I'm fascinated by the latest gadgets and innovations. Are you into tech stuff? Any cool gadgets or tech trends that caught your eye recently?"
+      ]
+    },
+    {
+      "tag": "closing_remarks",
+      "patterns": [
+        "This has been a great chat!",
+        "Time flew by! What else should we talk about?"
+      ],
+      "responses": [
+        "Absolutely! Time flies when you're having fun. What's on your mind? Anything specific you'd like to dive into or discuss further?"
+      ]
+    },
+    {
+      "tag": "custom_2023122019_23_15_19",
+      "patterns": [
+        [
+          "it",
+          "was",
+          "Oppenheimer"
+        ]
+      ],
+      "responses": [
+        "Oh, really? I also watched it. What did you like in this movie?"
+      ]
+    },
+      {
+        "tag": "movie_directors",
+        "patterns": [
+          "Any favorite directors?",
+          "Who are your go-to filmmakers?"
+        ],
+        "responses": [
+          "Directors are the unsung heroes! I've got a soft spot for Christopher Nolan and Quentin Tarantino. What about you? Any directors whose work you absolutely love?"
+        ]
+      },
+      {
+        "tag": "cinematic_experience",
+        "patterns": [
+          "Do you prefer watching movies in theaters or at home?",
+          "What's your ideal cinematic experience?"
+        ],
+        "responses": [
+          "Ah, the eternal debate: theater or home? I love the big screen vibes, but there's something cozy about home too. What's your take? Do you have a favorite way to watch movies?"
+        ]
+      },
+      {
+        "tag": "underrated_gems",
+        "patterns": [
+          "Know any underrated movie gems?",
+          "Discover any hidden movie treasures lately?"
+        ],
+        "responses": [
+          "Unearthing hidden gems is the best! Have you come across any underrated movies that deserve more love? I'm always up for recommendations!"
+        ]
+      },
+      {
+        "tag": "movie_quotes",
+        "patterns": [
+          "Any favorite movie quotes?",
+          "Share some of your go-to movie lines!"
+        ],
+        "responses": [
+          "Quotes can be legendary! One of my favorites is 'Here's looking at you, kid.' from Casablanca. How about you? Any movie quotes that have stuck with you?"
+        ]
+      },
+      {
+        "tag": "film_awards",
+        "patterns": [
+          "What's your take on film awards?",
+          "Do you follow award shows like the Oscars?"
+        ],
+        "responses": [
+          "Ah, the glitz and glamour of awards season! I'm curious, do you follow film awards like the Oscars? Any thoughts on the winners and snubs?"
+        ]
+      },
+      {
+        "tag": "movie_buff",
+        "patterns": [
+          "Consider yourself a movie buff?",
+          "How deep is your movie knowledge?"
+        ],
+        "responses": [
+          "A true movie buff, eh? Impressive! Any obscure movie facts or trivia you've come across lately? I'm always up for expanding my cinematic knowledge."
+        ]
+      },
+      {
+        "tag": "movie_discussion_end",
+        "patterns": [
+          "This was fun! Let's talk about something else.",
+          "Got any other interests you'd like to discuss?"
+        ],
+        "responses": [
+          "Absolutely! Movies are a passion, but there's so much more to explore. What other topics are on your mind? Let's keep the conversation rolling!"
+        ]
+      },
+      {
+        "tag": "movie_soundtracks",
+        "patterns": [
+          "Any favorite movie soundtracks?",
+          "Do you pay attention to film music?"
+        ],
+        "responses": [
+          "Movie soundtracks are like magic for the ears! I can't get enough of Hans Zimmer's work. How about you? Any favorite movie soundtracks or composers that you love listening to?"
+        ]
+      },
+      {
+        "tag": "nostalgic_films",
+        "patterns": [
+          "Any films that give you nostalgia?",
+          "Movies from your childhood that you still love?"
+        ],
+        "responses": [
+          "Nostalgia hits differently with movies, right? I still get a warm feeling watching classics like The Lion King. How about you? Any films from your childhood that still hold a special place in your heart?"
+        ]
+      },
+      {
+        "tag": "foreign_films",
+        "patterns": [
+          "Do you watch foreign films?",
+          "Any favorite non-English language movies?"
+        ],
+        "responses": [
+          "Diving into foreign films is like opening a door to a whole new world. Do you watch any non-English language movies? Any recommendations from different cultures that you've enjoyed?"
+        ]
+      },
+      {
+        "tag": "movie_moments",
+        "patterns": [
+          "Have a favorite movie moment?",
+          "Any scenes that always give you chills?"
+        ],
+        "responses": [
+          "Certain movie moments are pure gold! The 'I'm flying' scene from Titanic gets me every time. What about you? Any movie scenes that give you chills or make you emotional?"
+        ]
+      },
+      {
+        "tag": "cinematic_technology",
+        "patterns": [
+          "Interested in the evolution of cinematic technology?",
+          "What's your take on advancements in film tech?"
+        ],
+        "responses": [
+          "Cinematic technology is evolving at lightning speed! From practical effects to CGI wonders. What are your thoughts on the advancements in film tech? Anything specific that blew your mind recently?"
+        ]
+      },
+      {
+        "tag": "movie_reviews",
+        "patterns": [
+          "Do you read movie reviews before watching?",
+          "How much do reviews influence your movie choices?"
+        ],
+        "responses": [
+          "Reviews can be a game-changer! Do you read movie reviews before watching, or do you prefer going in with a blank slate? Any memorable instances where a review swayed your decision?"
+        ]
+      },
+      {
+        "tag": "closing_remarks",
+        "patterns": [
+          "This has been a great chat!",
+          "Time flew by! What else should we talk about?"
+        ],
+        "responses": [
+          "Absolutely! Time flies when you're discussing movies. What's on your mind now? Any other interests or topics you'd like to explore? Let's keep the conversation going!"
+        ]
+      },
+      {
+        "tag": "favorite_actors",
+        "patterns": [
+          "Who are your favorite actors?",
+          "Do you have any go-to actors you love watching?"
+        ],
+        "responses": [
+          "Actors are the heart of the show! I'm a big fan of Leonardo DiCaprio and Meryl Streep. How about you? Any favorite actors whose performances you always look forward to?"
+        ]
+      },
+      {
+        "tag": "movie_character_love",
+        "patterns": [
+          "Any movie characters you absolutely love?",
+          "Characters that stole the show for you?"
+        ],
+        "responses": [
+          "Characters can make or break a movie! Personally, I adore characters like Indiana Jones and Hermione Granger. What about you? Any movie characters that you've fallen in love with?"
+        ]
+      },
+      {
+        "tag": "actor_director_collaboration",
+        "patterns": [
+          "Do you enjoy watching movies with the same actor-director collaboration?",
+          "Any favorite actor-director duos?"
+        ],
+        "responses": [
+          "There's something magical about actor-director partnerships! I love the combo of Johnny Depp and Tim Burton. Do you have any favorite actor-director collaborations that you find irresistible?"
+        ]
+      },
+      {
+        "tag": "underrated_actors",
+        "patterns": [
+          "Know any underrated actors who deserve more recognition?",
+          "Discover any hidden talents in the acting world?"
+        ],
+        "responses": [
+          "Underrated actors are like hidden gems waiting to be discovered! Have you come across any underrated performers who you think deserve more recognition? I'm always up for finding new talent!"
+        ]
+      },
+      {
+        "tag": "method_acting",
+        "patterns": [
+          "What's your take on method acting?",
+          "Do you appreciate actors who practice method acting?"
+        ],
+        "responses": [
+          "Method acting adds a whole new layer to performances! Do you appreciate actors who dive deep into method acting? Any favorite method actors or performances that left a lasting impression on you?"
+        ]
+      },
+      {
+        "tag": "movie_cast_ensemble",
+        "patterns": [
+          "Any movies with an ensemble cast that you love?",
+          "Do you enjoy movies with a star-studded cast?"
+        ],
+        "responses": [
+          "Ensemble casts bring a unique energy to the screen! Ocean's Eleven is a classic example. Do you have any favorite movies with an ensemble cast that you absolutely adore?"
+        ]
+      },
+      {
+        "tag": "movie_discussion_end",
+        "patterns": [
+          "This was fun! Let's talk about something else.",
+          "Got any other interests you'd like to discuss?"
+        ],
+        "responses": [
+          "Absolutely! Actors are the soul of the movie, but there's so much more to explore. What other topics are you passionate about? Let's keep the conversation flowing!"
+        ]
+      }
   ]
 }
